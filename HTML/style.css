@@ -1,0 +1,82 @@
+:root {
+  --yellow: #f6e767;
+  --white: #f6f7f8;
+  --black: #2c2e31;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 2rem;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans",
+    "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+    "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 2rem 0 0;
+}
+
+#button {
+  background: var(--yellow);
+  color: var(--black);
+  padding: 1rem 2rem;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  border: 10px;
+  border-radius: 10px;
+  transition: 0.15s ease transform;
+  cursor: pointer;
+}
+
+#button:active {
+  transform: translatey(3px);
+}
+
+#punchline {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#error {
+  color: #ff4d51;
+}
+
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: bottom;
+  padding: 0.5rem;
+  place-content: bottom;
+  min-height: 0.5rem;
+
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans",
+    "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+    "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+
+#kaki {
+
+  font-weight: 100;
+  font-size: 0.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
